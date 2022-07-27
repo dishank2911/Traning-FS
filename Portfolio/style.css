@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-gradient-heading {
+    display: inline;
+    /* padding-right: 5px; */
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* .bg-img{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./bg.jpg");
+} */
+/* 
+.wrapper{
+    display: grid;
+    grid-template: "a a" ;
+} */
